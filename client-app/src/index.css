@@ -13,3 +13,9 @@
         scrollbar-width: none;  /* Firefox */
   }
 }
+  .linkBlue:hover {
+    @apply text-blue-600 underline; /* Apply Tailwind utilities on hover */
+  }
+  ul > li > a {
+    @apply hover:text-purple-200 hover:underline;
+  }

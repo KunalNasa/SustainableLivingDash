@@ -2,6 +2,7 @@ import React from 'react'
 import FeaturedTips from './FeaturedTips'
 import GlobalStats from './GlobalStats'
 import { FaGithub } from "react-icons/fa";
+import { NavLink } from 'react-router-dom';
 
 const container = () => {
   return (
@@ -15,9 +16,8 @@ const container = () => {
     </div>
     <div>
       <GlobalStats/>
-      <button className='sticky bg-black text-white px-1 py-1 rounded-full' style={{ position: 'fixed', bottom: '5rem', right: '1rem' }}><a href="https://github.com/KunalNasa/Web-Dev/tree/main/01FullStack" target='blank'><FaGithub size={50} /></a></button>
+      <button className='sticky text-5xl bg-black text-white px-1 py-1 rounded-full' style={{ position: 'fixed', bottom: '5rem', right: '1rem' }}><NavLink to="https://github.com/KunalNasa/SustainableLivingDash" target='_blank'><FaGithub /></NavLink></button>
     </div>
-    
   </div>
   )
 }

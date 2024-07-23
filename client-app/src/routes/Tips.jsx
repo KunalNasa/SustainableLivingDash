@@ -1,9 +1,10 @@
 import React from 'react'
+import Hero from '../components/TipsAndResources/TipsContainer/Hero'
 
 const Tips = () => {
   return (
     <div>
-      Hello
+      <Hero/>
     </div>
   )
 }
