@@ -1,9 +1,10 @@
-import React from 'react'
+
+import UserContainer from '../components/UserProfile/UserContainer'
 
 const UserProfile = () => {
   return (
     <div>
-      Username : Unknown
+      <UserContainer/>
     </div>
   )
 }

@@ -1,9 +1,10 @@
 import React from 'react'
+import MainContainer from '../components/CarbonProfile/MainContainer'
 
 const CarbonFP = () => {
   return (
     <div>
-      I am carbon FP
+      <MainContainer/>
     </div>
   )
 }

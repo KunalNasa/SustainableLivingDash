@@ -17,6 +17,8 @@ app.use(cors({
 
 app.use("/tips", require('./routes/TipsRoutes'));
 app.use("/resources", require('./routes/ResourceRoutes'))
+app.use("/users", require('./routes/UserRoutes'));
+app.use("/carbonFootprint", require('./routes/carbonFootprintRoutes'))
 
 app.listen(port, () =>{
     console.log(`App is listening on port ${port}`)

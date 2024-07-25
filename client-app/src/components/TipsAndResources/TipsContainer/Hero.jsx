@@ -1,8 +1,7 @@
 import React from 'react'
 import TipsContainer from './TipsResourceContainer/TipsContainer'
-import { TipsURL } from '../../../helpers/TipsUrl'
+import { TipsURL, ResourceURL } from '../../../helpers/ImportantRoutes'
 import Footer from "../../Footer"
-import { ResourceURL } from '../../../helpers/ResuourceURL'
 
 import { useState, useEffect } from 'react'
 import axios from 'axios'

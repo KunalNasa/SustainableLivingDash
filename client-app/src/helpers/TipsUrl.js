@@ -1,1 +1,0 @@
-export const TipsURL = import.meta.env.VITE_SERVER_URL_TIPS || "http://localhost:5001/tips"
