@@ -28,7 +28,7 @@ const FootPrintHistory = (props) => {
     }, [graphData]);
 
     return (
-        <div className="z-0 w-[60%] relative flex flex-col rounded-xl bg-purple-200 bg-clip-border text-gray-700 shadow-2xl m-2">
+        <div className="z-0 sm:w-[60%] relative flex flex-col rounded-xl bg-purple-200 bg-clip-border text-gray-700 shadow-2xl m-2">
             <div className="relative mx-4 mt-4 flex flex-col gap-4 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none md:flex-row md:items-center">
                 <div>
                     <h6 className="block font-sans text-2xl font-semibold leading-relaxed tracking-normal text-blue-gray-900 antialiased">
