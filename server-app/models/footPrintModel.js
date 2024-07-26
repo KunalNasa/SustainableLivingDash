@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const carbonFootprintSchema = mongoose.Schema({
     user_id: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'UserModel', // Assuming you have a User model
+        ref: 'UserModel', 
         required: true
     },
     householdSize: {
