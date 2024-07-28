@@ -67,8 +67,8 @@ const UserForm = (props) => {
       };
     
   return (
-    <div className='w-full p-5 h-full bg-purple-200'>
-    <div className="max-w-2xl mx-auto p-6 bg-purple-300 shadow-2xl rounded-lg">
+    <div className='w-full p-5 h-full'>
+    <div className="max-w-2xl mx-auto p-6 bg-gradient-to-r from-slate-100 to-slate-200  shadow-2xl rounded-lg">
       <h2 className="text-2xl font-bold mb-4 text-gray-700">Carbon Footprint Calculator</h2>
       <form onSubmit={handleSubmit} className="space-y-4 flex flex-col">
         <div className="flex flex-col">
@@ -218,14 +218,14 @@ const UserForm = (props) => {
 
         <button
           type="submit"
-          className="mt-4 bg-purple-500 text-white p-2 rounded-md hover:bg-purple-600"
+          className="mt-4 bg-green-500 text-white p-2 rounded-md hover:bg-green-600"
         >
           Submit
         </button>
       </form>
       <div className="flex flex-col mt-4">
         <h1 className="m-2 text-center text-2xl font-bold text-gray-600">Estimated Carbon Footprint (metric tons CO₂)</h1>
-        <h3 className='text-center text-gray-500'>{FootPrintVal ? <h1 className='text-4xl text-purple-800 font-bold m-4 p-2'>{FootPrintVal}</h1> : "Fill Form to know your Carbon Footprint"}</h3>
+        <h3 className='text-center text-gray-500'>{FootPrintVal ? <h1 className='text-4xl text-green-600 font-bold m-4 p-2'>{FootPrintVal}</h1> : "Fill Form to know your Carbon Footprint"}</h3>
       </div>
     </div>
     </div>

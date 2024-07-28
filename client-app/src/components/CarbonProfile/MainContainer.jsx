@@ -38,7 +38,7 @@ const MainContainer = () => {
     }, [reload])
     
   return (
-    <div className='bg-purple-200'>
+    <div>
       {flag ? <UserStats updateReloadState = {updateReloadState}/> : <UserLogin updateReloadState = {updateReloadState}/>}
     </div>
   )

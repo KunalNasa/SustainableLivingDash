@@ -17,5 +17,5 @@
     @apply text-blue-600 underline; /* Apply Tailwind utilities on hover */
   }
   ul > li > a {
-    @apply hover:text-purple-200 hover:underline;
+    @apply hover:text-green-600 transform hover:scale-125 transition hover:ease-in-out hover:duration-500 hover:shadow-2xl hover:underline;
   }

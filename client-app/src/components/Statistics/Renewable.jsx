@@ -27,7 +27,7 @@ const RenewableEnergyUsageChart = () => {
       dataLabels: {
         enabled: false,
       },
-      colors: ["#9333ea"],
+      colors: ["#026e24"],
       plotOptions: {
         bar: {
           columnWidth: "40%",
@@ -43,7 +43,7 @@ const RenewableEnergyUsageChart = () => {
         },
         labels: {
           style: {
-            colors: "#616161",
+            colors: "#035b23",
             fontSize: "12px",
             fontFamily: "inherit",
             fontWeight: 400,
@@ -67,7 +67,7 @@ const RenewableEnergyUsageChart = () => {
       yaxis: {
         labels: {
           style: {
-            colors: "#616161",
+            colors: "#04501c",
             fontSize: "12px",
             fontFamily: "inherit",
             fontWeight: 400,
@@ -76,7 +76,7 @@ const RenewableEnergyUsageChart = () => {
       },
       grid: {
         show: true,
-        borderColor: "#7900eb",
+        borderColor: "#11c134",
         strokeDashArray: 5,
         xaxis: {
           lines: {
@@ -107,10 +107,10 @@ const RenewableEnergyUsageChart = () => {
   }, []);
 
   return (
-    <div className="z-0 relative flex flex-col rounded-xl bg-purple-200 bg-clip-border text-gray-700 shadow-2xl m-5">
+    <div className="z-0 relative flex flex-col rounded-xl bg-gradient-to-r from-slate-100 to-slate-200 bg-clip-border text-gray-700 shadow-2xl m-5">
       <div className="relative mx-4 mt-4 flex flex-col gap-4 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none md:flex-row md:items-center">
         <div>
-          <h6 className="block font-sans text-2xl font-semibold leading-relaxed tracking-normal text-blue-gray-900 antialiased">
+          <h6 className="block text-green-800 font-sans text-2xl font-semibold leading-relaxed tracking-normal text-blue-gray-900 antialiased">
             Renewable Energy Usage for Year 2023
           </h6>
         </div>

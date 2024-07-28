@@ -23,10 +23,10 @@ const Hero = () => {
     fetchResource();  
   }, [])
   return (
-    <div className='flex flex-col items-center bg-purple-200 justify-center'>
+    <div className='flex flex-col items-center justify-center'>
       <div className='Tips-Resource-Container p-8 w-3/4'>
-      <h1 className='text-5xl sm:text-8xl font-serif'>Guide to Sustainable Practices</h1>       
-      <p className='text-xl text-center font-serif mt-4'> Welcome to the Sustainable Living Tips & Resources section! Here, you'll find a wealth of information and practical advice to help you make eco-friendly choices in your everyday life. Whether you're just starting your sustainability journey or looking to deepen your commitment to the environment, our curated tips, comprehensive guides, and interactive tools are designed to support you every step of the way. Explore the sections below to discover how small changes can make a big impact and join us in creating a greener, more sustainable future.</p>
+      <h1 className='text-5xl sm:text-8xl text-green-500 font-serif'>Guide to Sustainable Practices</h1>       
+      <p className='text-xl text-green-800 text-center font-serif mt-4'> Welcome to the Sustainable Living Tips & Resources section! Here, you'll find a wealth of information and practical advice to help you make eco-friendly choices in your everyday life. Whether you're just starting your sustainability journey or looking to deepen your commitment to the environment, our curated tips, comprehensive guides, and interactive tools are designed to support you every step of the way. Explore the sections below to discover how small changes can make a big impact and join us in creating a greener, more sustainable future.</p>
       </div>
       <div className='flex items-center flex-col justify-center'>
         <TipsContainer data = {data}/>
